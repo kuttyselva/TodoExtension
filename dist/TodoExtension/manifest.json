@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "KuttyNote",
+	"description": "tiny notepad for chrome",
+	"version": "1.0",
+	"browser_action": {
+		"default_popup": "index.html"
+	},
+	"icons": {
+		"128": "./notes.png"
+	},
+	"permissions": [],
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
